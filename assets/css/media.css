@@ -1,0 +1,91 @@
+@media screen and (max-width:1170.98px) {
+    /* header start */
+        .header-wrap{width: 100%;}
+   /* header end  */
+
+   /* footer start */
+        .footer_wrap{width: 100;}
+   /* footer end */
+}
+@media screen and (max-width:1025.98px) {
+    /* header start */
+        .header-wrap{width: 100%;}
+        .wrap_head{width: 950px;}
+   /* footer start */
+        .footer_wrap{width: 100;}
+}
+@media screen and (max-width:971px) {
+    /* header start */
+    .header-wrap{width: 100%;}
+    .wrap_head{width: 700px;}
+/* footer start */
+    .footer_wrap{width: 100;}
+}
+@media screen and (max-width:886px) {
+    /* header start */
+      .header-wrap{width: 100%;}
+      .wrap_head{width: 600px}
+    /* footer start */
+        .footer_wrap{width: 100;}
+}
+@media screen and (max-width:767.98px) {
+    /* header start */
+        .header-wrap{width: 100%;}
+        .wrap_head{width: 500px;}
+
+    /* footer start */
+        .footer_wrap{ width: 100%;height: 250px;}
+        .footer_wrap_content{width: 400px; height: 200px; flex-direction: column; text-align: center; align-items: center; justify-content: space-between;}
+}
+@media screen and (max-width:483px) {
+/* header start */
+    .header-wrap{width: 100%;}
+    .wrap_head{ width: 300px;}  
+    .LOGO{width: 300px;}
+    
+/* mail temlate 3 */
+    .main_wrap{width: 100%;}
+    .presentation3_wrap{width: 300px;}
+    .protect_wrap{width: 300px;}
+    .monoPub_wrap{width: 300px;}
+    .line{width: 300px;}
+    .ask_wrap{width: 300px; text-align: center;} 
+
+/* mail template 4 */
+    .ask_wrap{width: 300px;}
+    .register_table_title{width: 300px;}
+    .register_table {width: 300px; overflow-y: scroll;}
+    .table_body{width: 500px;}
+    .regiter_information{width: 300px;}
+    .register_button {width: 300px;}
+    .monoPub_wrap {width: 300px;}
+    .line {width: 300px;}
+    .unlockButton
+
+/* mail template 5 */
+    .presentation_wrap{width: 300px;}
+    .memberInf_wrap{width: 300px; overflow-y: scroll;}
+    .switchChange_wrap{width: 300px;}
+    .monoPub_wrap{width: 300px;}
+    .line{width: 300px;}
+    .ask_wrap{width: 300px;}
+    .unlockButton{margin-top: 60px;}
+    .test_table{width: 400px; }
+    .memberInf_title{width: 300px;}
+
+/* mail template 9 */
+    .greetings_wrap{width: 300px;}
+    .success_complete{width: 300px;}
+    .project_process{width: 300px;}
+    .project_outcomes{width: 300px;}
+    .contact{width: 300px; margin-top:50px ;}
+    .commitment{width: 300px;}
+    .monoPub_wrap{width: 300px;}
+    .line{width: 300px;}
+    .instruction{width: 300px;}
+/* footer start */
+    .footer_wrap{width: 100%; height:300px;}
+    .footer_logo{display: none;}
+    .footer_wrap_content{ width: 300px;text-align: center;}
+    .footer_text{width: 300px;}
+    }
