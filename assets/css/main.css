@@ -2,545 +2,541 @@
 @import url(fonts.css);
 
 /* -------------------------- Mail Template-3 -------------------------- */
-    .presentation3_wrap{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-top: 30px;
-        width: 500px;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 16.71px;
-        letter-spacing: 3%;
-    }
-    .wrap_link{
-        display: flex;
-        flex-direction: column; 
-        align-items: center;
-        margin-top: 30px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16.71px;
-        color: skyblue;
-    }
-    .protect_wrap{
-        margin-top: 30px;
-        width: 500px;
-        text-align: center;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 16.71px;
-        letter-spacing: 3%;
-    }
-    .monoPub_wrap{
-        margin-top: 30px;
-        width: 500px;
-        text-align: center;
-    }
-    .monoPub_title{
-        display: flex;
-        justify-content: center;
-    }
-    .monoPub_red{
-        color: red;
-    }
-    .line{
-        width: 500px;
-        border: orangered 2px solid;
-        margin-top: 50px;
-    }
-    .ask_wrap{
-        margin-top: 50px;
-        width: 500px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 16.71px;
-        letter-spacing: 3%;
-    }
-    /* -------------------------- Mail Template-3-end -------------------------- */
+.presentation3_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  width: 500px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+  background-color: #f25555;
+}
+.presentation_wrap3 {
+  margin-top: -50px;
+  background-color: #5e5e5e;
+}
+.wrap_link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.71px;
+  color: skyblue;
+}
+.protect_wrap {
+  margin-top: 30px;
+  width: 500px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+}
+.monoPub_wrap {
+  margin-top: 30px;
+  width: 500px;
+  text-align: center;
+}
+.monoPub_title {
+  display: flex;
+  justify-content: center;
+}
+.monoPub_red {
+  color: red;
+}
+.line {
+  width: 500px;
+  border: orangered 2px solid;
+  margin-top: 50px;
+}
+.ask_wrap {
+  margin-top: 50px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+}
+/* -------------------------- Mail Template-3-end -------------------------- */
 
-    /* -------------------------- Mail Template-4-start -------------------------- */
-    .presentation_wrap3{
-        width: 28;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-        font-family: "pretendard", sans-serif;
-        margin-top: 30px;
-        font-family: Pretendard;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 17px;
-        letter-spacing: 0.03em;
-        text-align: center;
+/* -------------------------- Mail Template-4-start -------------------------- */
+.presentation_wrap3 {
+  width: 28;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 
-        
-    }
-    .register_table_title{
-        width: 500px;
-        height: 30px;
-        display: flex;
-        align-items: center;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 19.09px;
-        border-bottom: 1px #F25555 solid;
-    }
-    .register_table{
-        height: 134px;
-        width: 500px
-        
-    }
-    .regiter_information{
-        width: 436px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 137px;
-        text-align: center;
-        font-weight: 400px;
-        font-size: 14px;
-     
-        line-height: 16.71px;
-    }
-    .register_button{
-        height: 34px;
-        width: 180px;
-        background-color:  #F25555;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 30px;
-    }
-    .monoPub_wrap{
-        margin-top: 30px;
-    width: 500px;
-    text-align: center;
-    }
-    .monoPub_title{
-        display: flex;
-        justify-content: center;
-    }
-    .monoPub_red{
-        color: red;
-    }
-    .line{
-        width: 500px;
-        border: orangered 2px solid;
-        margin-top: 50px;
-    }
-    .ask_wrap{
-        margin-top: 30px;
-        width: 500px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 16.71px;
-        letter-spacing: 3%;
-        color: 
-        #5E5E5E;
-    }
-    
-    
-    table {
-        border-collapse: collapse;
-        width: 100%;
-        border: 1px solid #EFF1F0;
-        }
-        th,
-        td {
-        border: 1px solid #EFF1F0;
-        padding: 8px;
-        text-align: left;
-        }
-        th {
-        background-color: #EFF1F0;
-        }
-        .td1{
-            background-color: #EFF1F0;
-            border-bottom:  1px solid #FFFFFF;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 16.71px;
-            letter-spacing: 3%;
-            width:178px;
-        }
-        .td2{
-            background-color: #EFF1F0;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 16.71px;
-            letter-spacing: 3%;
-        }
-    
-        .td_date{
-            font-weight: 300;
-            font-size: 14px;
-            line-height: 16.71px;
-            letter-spacing: 3%;
-        }
-        .td_end{
-            font-weight: 300;
-            font-size: 14px;
-            line-height: 16.71px;
-            letter-spacing: 3%;
-        }
-            /* -------------------------- Mail Template-4-end -------------------------- */
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.register_table_title {
+  width: 500px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.09px;
+  border-bottom: 1px #f25555 solid;
+}
+.register_table {
+  height: 134px;
+  width: 500px;
+}
+.regiter_information {
+  width: 436px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 137px;
+  text-align: center;
+  font-weight: 400px;
+  font-size: 14px;
 
-            /* -------------------------- Mail Template-5-start -------------------------- */
-             .presentation_wrap{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                align-items: center;
-                text-align: center;
-                margin-top: 30px;
-                width: 330px;
-                height: 137px;
-                font-size: 14px;
-                font-weight: 400;
-                line-height: 20.71px;
-                letter-spacing: 3%;                
-            }
-            .memberInf_wrap{
-            width: 500px;
-            height: 95px;
-           
-            }
-            .memberInf_title{
-                margin-top: 30px;
-            width: 500px;              
-              height: 30px;
-              display: flex;
-              align-items: center;
-              font-weight: 500;
-              font-size: 16px;
-              line-height: 19.09px;
-              border-bottom: 1px #F25555 solid;
-            }            
-            .memberInf_table{
-                width: 100%;
-                height: 72px;
-            }            
-            .switchChange_wrap{
-                width: 500px;
-                height: 140px;
-                margin-top: 30px;
-            }
-            .switchChange_title{
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 19.09px;
-                letter-spacing: 3%;   
-                font-family: 'Pretendard';         
-            }
-            .switchChange_wrap ul li{
-                font-size: 14px;
-                line-height: 16.71px;
-                letter-spacing: 3%;
-                font-weight: 400;
-            }            
-            .unlockButton{
-                margin-top: 30px;
-                border: none;
-                height: 34px;
-                width: 180px;
-                background-color: #F25555;
-                color: #FFFFFF;
-                font-size: 14px;
-                font-weight: 600;
-                line-height: 16.71px;
-                letter-spacing: 3%;
-                font-family: 'Pretendard';
-            }           
-            .monoPub_wrap{
-                margin-top: 30px;
-            width: 500px;
-            text-align: center;
-            }
-            .monoPub_title{
-                display: flex;
-                justify-content: center;
-            }
-            .monoPub_red{
-                color: red;
-            }
-            .line{
-                width: 500px;
-                border: #F25555 2px solid;
-                margin-top: 50px;
-            }
-            .ask_wrap{
-                margin-top: 50px;
-                width: 500px;
-                display: flex;
-                align-items: center;
-                flex-direction: column;
-                justify-content: center;
-                font-size: 14px;
-                font-weight: 400;
-                line-height: 16.71px;
-                letter-spacing: 3%;
-                color: #5E5E5E;
-            }           
-                table {
-                border-collapse: collapse;
-                width: 100%;
-                border: 1px solid #EFF1F0;
-                }
-                th,
-                td {
-                border: 1px solid #EFF1F0;
-                padding: 8px;
-                text-align: left;
-                }
-                th {
-                background-color: #EFF1F0;
-                }
-                .td1{
-                    background-color: #EFF1F0;
-                    border-bottom:  1px solid #FFFFFF;
-                    font-weight: 500;
-                    font-size: 14px;
-                    line-height: 16.71px;
-                    letter-spacing: 3%;
-                    width:178px ;
-                }
-                .td2{
-                    background-color: #EFF1F0;
-                    font-weight: 500;
-                    font-size: 14px;
-                    line-height: 16.71px;
-                    letter-spacing: 3%;
-                }
-                  .td_date{
-                    font-weight: 300;
-                    font-size: 14px;
-                    line-height: 16.71px;
-                    letter-spacing: 3%;
-                }
-                .td_end{
-                    font-weight: 300;
-                    font-size: 14px;
-                    line-height: 16.71px;
-                    letter-spacing: 3%;
-                }
-                .test90{
-                    color: red;
-                    font-family: 'Pretendand'
+  line-height: 16.71px;
+}
+.register_button {
+  height: 34px;
+  width: 180px;
+  background-color: #f25555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.monoPub_wrap {
+  margin-top: 30px;
+  width: 500px;
+  text-align: center;
+}
+.monoPub_title {
+  display: flex;
+  justify-content: center;
+}
+.monoPub_red {
+  color: red;
+}
+.line {
+  width: 500px;
+  border: orangered 2px solid;
+  margin-top: 50px;
+}
+.ask_wrap {
+  margin-top: 30px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+  color: #5e5e5e;
+}
 
-                }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #eff1f0;
+}
+th,
+td {
+  border: 1px solid #eff1f0;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #eff1f0;
+}
+.td1 {
+  background-color: #eff1f0;
+  border-bottom: 1px solid #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+  width: 178px;
+}
+.td2 {
+  background-color: #eff1f0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+}
+
+.td_date {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+}
+.td_end {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+}
+/* -------------------------- Mail Template-4-end -------------------------- */
+
+/* -------------------------- Mail Template-5-start -------------------------- */
+.presentation_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  width: 330px;
+  height: 137px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.71px;
+  letter-spacing: 3%;
+}
+.memberInf_wrap {
+  width: 500px;
+  height: 95px;
+}
+.memberInf_title {
+  margin-top: 30px;
+  width: 500px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.09px;
+  border-bottom: 1px #f25555 solid;
+}
+.memberInf_table {
+  width: 100%;
+  height: 72px;
+}
+.switchChange_wrap {
+  width: 500px;
+  height: 140px;
+  margin-top: 30px;
+}
+.switchChange_title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.09px;
+  letter-spacing: 3%;
+  font-family: "Pretendard";
+}
+.switchChange_wrap ul li {
+  font-size: 14px;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+  font-weight: 400;
+}
+.unlockButton {
+  margin-top: 30px;
+  border: none;
+  height: 34px;
+  width: 180px;
+  background-color: #f25555;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+  font-family: "Pretendard";
+}
+.monoPub_wrap {
+  margin-top: 30px;
+  width: 500px;
+  text-align: center;
+}
+.monoPub_title {
+  display: flex;
+  justify-content: center;
+}
+.monoPub_red {
+  color: red;
+}
+.line {
+  width: 500px;
+  border: #f25555 2px solid;
+  margin-top: 50px;
+}
+.ask_wrap {
+  margin-top: 50px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+  color: #5e5e5e;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #eff1f0;
+}
+th,
+td {
+  border: 1px solid #eff1f0;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #eff1f0;
+}
+.td1 {
+  background-color: #eff1f0;
+  border-bottom: 1px solid #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+  width: 178px;
+}
+.td2 {
+  background-color: #eff1f0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+}
+.td_date {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+}
+.td_end {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+}
+.test90 {
+  color: red;
+  font-family: "Pretendand";
+}
 
 /* -------------------------- Mail Template-5-end -------------------------- */
 
 /* -------------------------- Mail Template-9-start -------------------------- */
-.greetings_wrap{
-    margin-top: 30px;
-    width: 341px;
-    height: 57px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0.03em;
-    text-align: center;
+.greetings_wrap {
+  margin-top: 30px;
+  width: 341px;
+  height: 57px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
-
-.success_complete{
-    margin-top: 30px;
-font-size: 14px;
-font-weight: 400;
-line-height: 17px;
-letter-spacing: 0.03em;
-text-align: center;
-width: 500px;
-
+.success_complete {
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  width: 500px;
 }
-.project_process{
-    margin-top: 30px;
-    width: 500px;
-    height: 165px;
+.project_process {
+  margin-top: 30px;
+  width: 500px;
+  height: 165px;
 }
 
-.project_process_ttl{
-    width: 100%;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    font-family: Pretendard;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    border-bottom: 1px #F25555 solid;
+.project_process_ttl {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  border-bottom: 1px #f25555 solid;
 }
 
 table {
-    border-collapse: collapse;
-    width: 100%;
-    border: 1px solid #EFF1F0;
-    }
-    th,
-    td {
-    border: 1px solid #EFF1F0;
-    padding: 8px;
-    text-align: left;
-    }
-    th {
-    background-color: #EFF1F0;
-    }
-    .td1{
-        background-color: #EFF1F0;
-        border-bottom:  1px solid #FFFFFF;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16.71px;
-        letter-spacing: 3%;
-        width:178px;
-    }
-    .td2{
-        background-color: #EFF1F0;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16.71px;
-        letter-spacing: 3%;
-    }
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #eff1f0;
+}
+th,
+td {
+  border: 1px solid #eff1f0;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #eff1f0;
+}
+.td1 {
+  background-color: #eff1f0;
+  border-bottom: 1px solid #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+  width: 178px;
+}
+.td2 {
+  background-color: #eff1f0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+}
 
-    .td_date{
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 16.71px;
-        letter-spacing: 3%;
-    }
-    .td_end{
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 16.71px;
-        letter-spacing: 3%;
-    }
+.td_date {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+}
+.td_end {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16.71px;
+  letter-spacing: 3%;
+}
 
-    .project_outcomes{
-        margin-top: 30px;
-        width: 500px;
-        height: 167px;
-    
-        font-family: Pretendard;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 17px;
-        letter-spacing: 0.03em;
-        text-align: left;
+.project_outcomes {
+  margin-top: 30px;
+  width: 500px;
+  height: 167px;
 
-    }
-.projec_outcomes_body{
-    height: 134px;
-    display: flex;
-flex-direction: column;
-justify-content: space-between;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
-.project_outcomes_main{
+.projec_outcomes_body {
+  height: 134px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project_outcomes_main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 6px;
 
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 6px;
-    font-family: Pretendard;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
-.color_text{
-    color: #F25555;
+.color_text {
+  color: #f25555;
 }
-.contact{
-    width: 500px;
-    margin-top: 30px;
+.contact {
+  width: 500px;
+  margin-top: 30px;
 }
-.contact_ttl{
-font-size: 16px;
-font-weight: 500;
-line-height: 19px;
-letter-spacing: 0.03em;
-text-align: left;
+.contact_ttl {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
-.contact ul li{
-    font-family: Pretendard;
-font-size: 14px;
-font-weight: 400;
-line-height: 17px;
-letter-spacing: 0.03em;
-text-align: left;
+.contact ul li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.commitment {
+  width: 474px;
 
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
-.commitment{
-    width: 474px;
-    font-family: Pretendard;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0.03em;
-    text-align: center;
-
+.monoPub_wrap {
+  margin-top: 30px;
+  width: 500px;
+  text-align: center;
 }
-.monoPub_wrap{
-    margin-top: 30px;
-width: 500px;
-text-align: center;
+.monoPub_title {
+  display: flex;
+  justify-content: center;
 }
-.monoPub_title{
-    display: flex;
-    justify-content: center;
+.line {
+  width: 500px;
+  border: orangered 2px solid;
+  margin-top: 50px;
 }
-.line{
-    width: 500px;
-    border: orangered 2px solid;
-    margin-top: 50px;
+.instruction {
+  margin-top: 50px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #5e5e5e;
 }
-.instruction{
-    margin-top: 50px;
-    width: 500px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: #5E5E5E;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
 }
- h1, h2, h3, h4, h5, h6, p {margin:0; padding:0;}
-.test{
-    padding: 20px;
+.test {
+  padding: 20px;
 }
-.test2{
-    display: flex;
-    height: 60px;
-    width: 300px;
-    background-color: #F25555;
-    justify-content: space-between;
-    scroll-padding-block: 20px;
+.test2 {
+  display: flex;
+  height: 60px;
+  width: 300px;
+  background-color: #f25555;
+  justify-content: space-between;
+  scroll-padding-block: 20px;
 }
-.test3{
-    height: 60px;
-    width: 300px;
-    background-color: #423a3a;
-
+.test3 {
+  height: 60px;
+  width: 300px;
+  background-color: #423a3a;
 }
 /* -------------------------- Mail Template-9-end -------------------------- */
