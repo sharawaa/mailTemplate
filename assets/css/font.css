@@ -1,6 +1,9 @@
 @charset "utf-8";
 @font-face {
-    font-family: 'Pretendard';
-    font-style: normal;
-    src: url(../font/PretendardVariable.ttf);
+  font-family: "Pretendard";
+  font-style: normal;
+  src: url(../font/PretendardVariable.ttf);
+}
+body {
+  font-family: "Pretendard";
 }
