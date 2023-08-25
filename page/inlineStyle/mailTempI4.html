@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mail template 4</title>
-    <link rel="stylesheet" href="../../assets/css/main.css">
+
+    <style>@media screen and (max-width:483px) {
+        .footer_wrap_content{display: flex; flex-direction: column; text-align: center; height: 600px;}
+        .footer_text{ display: flex; flex-direction: column; align-self: center; justify-content: center; }
+        .LOGO{ margin: 0;margin-bottom: 10px;}
+          }</style>
 </head>
 <body style='font-family: "Pretendard";'>
     <header>
@@ -91,11 +96,11 @@
         <div class="footer_wrap_content" style="width: 545px; height: 151px; display: flex; justify-content: space-between;
         align-items: center;">
 
-            <div style="   font-size: 26PX; font-weight: 700; line-height: 31.03PX; color: #FFFFFF;  display: flex; align-items: center;">
-                <p>LOGO</p>
+            <div style="    font-size: 26px; font-weight: 700; line-height: 31px; letter-spacing: 0.03em; text-align: left;  color: #FFFFFF;  display: flex; align-items: center;">
+                <p class="LOGO">LOGO</p>
             </div>
             <div>
-                <div style="   color: #FFFFFF; font-size: 15px; font-weight: 400; line-height: 22.9px;">
+                <div  class="footer_text" style="color: #FFFFFF;  font-size: 15px; font-weight: 400; line-height: 18px; letter-spacing: 0.03em;">
                     <div>사업자등록번호 : 113-86-13483</div>
                     <div>통신판매번호 : 구로 제 2008-00086호</div>
                     <div>고객센터 : 1644-5805</div>
@@ -103,7 +108,7 @@
                     <div>대표 : 문양희     개인정보관리책임자 : 조원호</div>
                 </div>
                 
-                <div style="     margin-top: 15px;  color: #FFFFFF;">Codivyright © 2023 MONOPUB, Inc. All rights reserved</p>
+                <div style="  font-size: 15px; font-weight: 400; line-height: 18px; letter-spacing: 0.03em; text-align: left; margin-top: 15px;  color: #FFFFFF;">Copyright © 2023 MONOPUB, Inc. All rights reserved</p>
             </div>
         </div>
     </footer>
