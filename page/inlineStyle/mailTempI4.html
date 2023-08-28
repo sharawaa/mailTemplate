@@ -1,201 +1,465 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>mail template 4</title>
 
-    <style>@media screen and (max-width:483px) {
-        *body{margin: 0; background-color: aqua;}
-        .wrap_head{font-size: 24px !important;}
-        .footer{ background-color: aqua; height: 250px !important;}
-        .footer_wrap_content{ flex-direction: column;}
-        .footer_text{text-align: center; margin-top: 10px;}
-        .table_td{width: 110px !important;}
-        .copyright{text-align: center !important;}
-        *body{margin: 0; background-color: aqua;}
-        .wrap_head{font-size: 24px !important;}
-        .footer{ background-color: aqua; height: 250px !important;}
-        .footer_wrap_content{ flex-direction: column;}
-        .footer_text{text-align: center; margin-top: 10px;}
-        .table_td{width: 110px !important;}
-        .copyright{text-align: center !important;}
-          }</style>
-             <script>
-                (function (d) {
-                  var config = {
-                      kitId: "pkx5omj",
-                      scriptTimeout: 3000,
-                      async: true,
-                    },
-                    h = d.documentElement,
-                    t = setTimeout(function () {
-                      h.className =
-                        h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
-                    }, config.scriptTimeout),
-                    tk = d.createElement("script"),
-                    f = false,
-                    s = d.getElementsByTagName("script")[0],
-                    a;
-                  h.className += " wf-loading";
-                  tk.src = "https://use.typekit.net/" + config.kitId + ".js";
-                  tk.async = true;
-                  tk.onload = tk.onreadystatechange = function () {
-                    a = this.readyState;
-                    if (f || (a && a != "complete" && a != "loaded")) return;
-                    f = true;
-                    clearTimeout(t);
-                    try {
-                      Typekit.load(config);
-                    } catch (e) {}
-                  };
-                  s.parentNode.insertBefore(tk, s);
-                })(document);
-              </script>
-             <script>
-                (function (d) {
-                  var config = {
-                      kitId: "pkx5omj",
-                      scriptTimeout: 3000,
-                      async: true,
-                    },
-                    h = d.documentElement,
-                    t = setTimeout(function () {
-                      h.className =
-                        h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
-                    }, config.scriptTimeout),
-                    tk = d.createElement("script"),
-                    f = false,
-                    s = d.getElementsByTagName("script")[0],
-                    a;
-                  h.className += " wf-loading";
-                  tk.src = "https://use.typekit.net/" + config.kitId + ".js";
-                  tk.async = true;
-                  tk.onload = tk.onreadystatechange = function () {
-                    a = this.readyState;
-                    if (f || (a && a != "complete" && a != "loaded")) return;
-                    f = true;
-                    clearTimeout(t);
-                    try {
-                      Typekit.load(config);
-                    } catch (e) {}
-                  };
-                  s.parentNode.insertBefore(tk, s);
-                })(document);
-              </script>
-</head>
-<body style='font-family: "Pretendard"; margin: 0;'>
-<body style='font-family: "Pretendard"; margin: 0;'>
+    <style>
+      @media screen and (max-width: 483px) {
+        *body {
+          margin: 0;
+          background-color: aqua;
+        }
+        .wrap_head {
+          font-size: 24px !important;
+        }
+        .footer {
+          background-color: aqua;
+          height: 250px !important;
+        }
+        .footer_wrap_content {
+          flex-direction: column;
+        }
+        .footer_text {
+          text-align: center;
+          margin-top: 10px;
+        }
+        .table_td {
+          width: 110px !important;
+        }
+        .copyright {
+          text-align: center !important;
+        }
+      }
+    </style>
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "pkx5omj",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body style="font-family: 'Pretendard'; margin: 0">
     <header>
-        <div  style="width: 100%; display: flex; flex-direction: column;align-items: center; justify-content: space-around; height: 200px; ">
-            <a href="./mailTempI5.html" style="width: 90%; max-width: 500px; height: 50px; display: flex; justify-content: center; align-items: center; margin-top: 62px; font-size: 26px;font-weight: 700; line-height: 31.03px; color: black; text-decoration: none;">LOGO</a>
-            <div class="wrap_head" style="width: 90%; max-width: 1129px; height: 69px; background-color: #E8ECEF; display: flex; justify-content: center; align-items: center; margin-top: 19px; font-size: 32px; font-weight: 600; text-align: center;">휴면계정 사전 안내</div>
+      <div
+        style="
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+          height: 200px;
+        "
+      >
+        <a
+          href="./mailTempI5.html"
+          style="
+            width: 90%;
+            max-width: 500px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 62px;
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 31.03px;
+            color: black;
+            text-decoration: none;
+          "
+          >LOGO</a
+        >
+        <div
+          class="wrap_head"
+          style="
+            width: 90%;
+            max-width: 1129px;
+            height: 69px;
+            background-color: #e8ecef;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 19px;
+            font-size: 32px;
+            font-weight: 600;
+            text-align: center;
+          "
+        >
+          휴면계정 사전 안내
         </div>
-        
+      </div>
     </header>
-<!-- header end -->
+    <!-- header end -->
 
-   <!-- main start -->
-   <main style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
-    <div style="  display: flex; flex-direction:column; justify-content: space-between; align-items: center; text-align: center; margin-top: 30px;width:330px; height:137px; font-family: Pretendard; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0.03em; text-align: center;  color: #000000;">
+    <!-- main start -->
+    <main
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          text-align: center;
+          margin-top: 30px;
+          width: 330px;
+          height: 137px;
+          font-family: Pretendard;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 17px;
+          letter-spacing: 0.03em;
+          text-align: center;
+          color: #000000;
+        "
+      >
         <div>
-                홍길동(honggil***) 회원님 안녕하세요.
-                모노펍에서 회원님의 소중한 개인정보 보호를 위해최근 1년 동안 모노펍 로그인 이력이 없는 계정을 
-                휴면회원으로 전환하고 있는 점을 안내드립니다.
+          홍길동(honggil***) 회원님 안녕하세요. 모노펍에서 회원님의 소중한
+          개인정보 보호를 위해최근 1년 동안 모노펍 로그인 이력이 없는 계정을
+          휴면회원으로 전환하고 있는 점을 안내드립니다.
         </div>
         <div>
-                회원님의 모노펍 계정은 사용하지 않은 지 
-                오래되어 아래와 같이 휴면 처리될 예정입니다.
+          회원님의 모노펍 계정은 사용하지 않은 지 오래되어 아래와 같이 휴면
+          처리될 예정입니다.
         </div>
-    </div>
- 
+      </div>
 
+      <div style="height: 95px; margin-top: 30px; width: 90%; max-width: 500px">
+        <div
+          style="
+            width: 100%;
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19.09px;
+            border-bottom: 1px #f25555 solid;
+          "
+        >
+          회원 가입 정보
+        </div>
+        <table
+          style="
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #eff1f0;
+          "
+        >
+          <tr>
+            <td
+              class="table_td"
+              style="
+                border: 1px solid #eff1f0;
+                padding: 8px;
+                text-align: left;
+                background-color: #eff1f0;
+                border-bottom: 1px solid #ffffff;
+                font-family: Pretendard;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 17px;
+                letter-spacing: 0.03em;
+                text-align: left;
+                width: 178px;
+              "
+            >
+              계정정보
+            </td>
 
-
-    <div style="height: 95px; margin-top: 30px; width: 90%; max-width: 500px;;">
-        <div style="  width: 100%; display: flex; align-items: center; font-weight: 500; font-size: 16px; line-height: 19.09px; border-bottom: 1px #f25555 solid; ">회원 가입 정보</div>
-        <table style=" border-collapse: collapse; width: 100%; border: 1px solid #eff1f0;">
-
-            <tr>
-              <td class="table_td" style="border: 1px solid #eff1f0; padding: 8px; text-align: left; background-color: #eff1f0; border-bottom: 1px solid #ffffff; font-family: Pretendard; font-size: 14px; font-weight: 500; line-height: 17px; letter-spacing: 0.03em; text-align: left; width: 178px;">계정정보</td>
-              <td class="table_td" style="border: 1px solid #eff1f0; padding: 8px; text-align: left; background-color: #eff1f0; border-bottom: 1px solid #ffffff; font-family: Pretendard; font-size: 14px; font-weight: 500; line-height: 17px; letter-spacing: 0.03em; text-align: left; width: 178px;">계정정보</td>
-
-              <td style="border: 1px solid #eff1f0; padding: 8px; text-align: left; font-family: Pretendard; font-size: 14px; font-weight: 300; line-height: 17px; letter-spacing: 0.03em; text-align: left; ">honggildong</td>
-            </tr>
-            <tr>
-              <td class="table_td" style="border: 1px solid #eff1f0; padding: 8px; text-align: left; background-color: #eff1f0; border-bottom: 1px solid #ffffff; font-family: Pretendard; font-size: 14px; font-weight: 500; line-height: 17px; letter-spacing: 0.03em; text-align: left;  ">휴면계정 전환 일자</td>
-              <td class="table_td" style="border: 1px solid #eff1f0; padding: 8px; text-align: left; background-color: #eff1f0; border-bottom: 1px solid #ffffff; font-family: Pretendard; font-size: 14px; font-weight: 500; line-height: 17px; letter-spacing: 0.03em; text-align: left;  ">휴면계정 전환 일자</td>
-              <td style="border: 1px solid #eff1f0; padding: 8px; text-align: left; font-family: Pretendard; font-size: 14px; font-weight: 300; line-height: 17px; letter-spacing: 0.03em; ">2023-09-16</td>
-            </tr>
-        </table> 
-       
-    </div>
-    <div style=" width: 90%; max-width: 500px; display: flex; align-items: center; flex-direction: column; justify-content: space-between; height: 137px; font-family: Pretendard; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0.03em; text-align: center;  margin-top: 30px;">
-        <div>휴면계정의 개인 정보는 정보통신망 이용 촉진 및 정보보호 등에 
-            관한 법률에 따라 접근이 불가능하도록 분리 보관되어 안전하게 관리됩니다.</div>
-        <div>휴면계정으로 전환된 후 3년이 지나 모노펍 서비스를 
-            이용하지 않으면 모노펍 계정 및 보관하고 있던 개인정보가 모두 삭제됩니다.</div>
-        <div>모노펍 서비스를 계속 이용하시려면 지금 모노펍에 로그인해 주시기 바랍니다.</div>
-    </div>
-    <button style="height: 34px; width: 180px; display: flex; justify-content: center; align-items: center; margin-top: 30px; color: #ffffff; background-color: #f25555; border: none; font-family: Pretendard;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 17px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    
-">       로그인
-    </button>
-    <div style="margin-top: 30px; width: 90%; max-width: 500px;; text-align: center;">
-        <div style="display: flex;
-        justify-content: center;">
-            <div style="color: 
-            #F25555; 
-            font-family: Pretendard; font-size: 14px; font-weight: 600;line-height: 17px; letter-spacing: 0.03em; text-align: center;
-">MonoPub</div>
-           <div style="font-family: Pretendard; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0.03em; text-align: center;"> 을 이용해 주셔서 감사합니다.</div>
+            <td
+              style="
+                border: 1px solid #eff1f0;
+                padding: 8px;
+                text-align: left;
+                font-family: Pretendard;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 17px;
+                letter-spacing: 0.03em;
+                text-align: left;
+              "
+            >
+              honggildong
+            </td>
+          </tr>
+          <tr>
+            <td
+              class="table_td"
+              style="
+                border: 1px solid #eff1f0;
+                padding: 8px;
+                text-align: left;
+                background-color: #eff1f0;
+                border-bottom: 1px solid #ffffff;
+                font-family: Pretendard;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 17px;
+                letter-spacing: 0.03em;
+                text-align: left;
+              "
+            >
+              휴면계정 전환 일자
+            </td>
+            <td
+              style="
+                border: 1px solid #eff1f0;
+                padding: 8px;
+                text-align: left;
+                font-family: Pretendard;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 17px;
+                letter-spacing: 0.03em;
+              "
+            >
+              2023-09-16
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div
+        style="
+          width: 90%;
+          max-width: 500px;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 137px;
+          font-family: Pretendard;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 17px;
+          letter-spacing: 0.03em;
+          text-align: center;
+          margin-top: 30px;
+        "
+      >
+        <div>
+          휴면계정의 개인 정보는 정보통신망 이용 촉진 및 정보보호 등에 관한
+          법률에 따라 접근이 불가능하도록 분리 보관되어 안전하게 관리됩니다.
+        </div>
+        <div>
+          휴면계정으로 전환된 후 3년이 지나 모노펍 서비스를 이용하지 않으면
+          모노펍 계정 및 보관하고 있던 개인정보가 모두 삭제됩니다.
+        </div>
+        <div>
+          모노펍 서비스를 계속 이용하시려면 지금 모노펍에 로그인해 주시기
+          바랍니다.
+        </div>
+      </div>
+      <button
+        style="
+          height: 34px;
+          width: 180px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 30px;
+          color: #ffffff;
+          background-color: #f25555;
+          border: none;
+          font-family: Pretendard;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 17px;
+          letter-spacing: 0.03em;
+          text-align: left;
+        "
+      >
+        로그인
+      </button>
+      <div
+        style="
+          margin-top: 30px;
+          width: 90%;
+          max-width: 500px;
+          text-align: center;
+        "
+      >
+        <div style="display: flex; justify-content: center">
+          <div
+            style="
+              color: #f25555;
+              font-family: Pretendard;
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 17px;
+              letter-spacing: 0.03em;
+              text-align: center;
+            "
+          >
+            MonoPub
+          </div>
+          <div
+            style="
+              font-family: Pretendard;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 17px;
+              letter-spacing: 0.03em;
+              text-align: center;
+            "
+          >
+            을 이용해 주셔서 감사합니다.
+          </div>
         </div>
 
-        <div style="font-family: Pretendard; font-size: 14px; font-weight: 400; line-height: 17px; letter-spacing: 0.03em; text-align: center; ">더욱 편리한 서비스를 제공하기 위해 항상 최선을 다하겠습니다.</div>
-        
-    </div>
-    <div style="width: 90%; max-width: 500px; border: #F25555 2px solid; margin-top: 50px;"></div>
-    <div class="container phone" style="  margin-top: 50px; width: 90%; max-width: 500px; display: flex; align-items: center; flex-direction: column; justify-content: center; font-size: 14px; font-weight: 400; line-height: 16.71px; letter-spacing: 3%; color: #5E5E5E;">
-        <div style="width: 90%; max-width: 500px;">본 메일은 발신전용으로 회신 되지 않습니다.  </div>
-        <div style="width: 90%; max-width: 500px;">모노펍 서비스 관련 궁금하신 사항은 고객센터 1644-5805, 1:1문의에서 확인해주세요.</div>
-    </div>
-</main>
-   <!-- main end -->
+        <div
+          style="
+            font-family: Pretendard;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0.03em;
+            text-align: center;
+          "
+        >
+          더욱 편리한 서비스를 제공하기 위해 항상 최선을 다하겠습니다.
+        </div>
+      </div>
+      <div
+        style="
+          width: 90%;
+          max-width: 500px;
+          border: #f25555 2px solid;
+          margin-top: 50px;
+        "
+      ></div>
+      <div
+        class="container phone"
+        style="
+          margin-top: 50px;
+          width: 90%;
+          max-width: 500px;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 16.71px;
+          letter-spacing: 3%;
+          color: #5e5e5e;
+        "
+      >
+        <div style="width: 90%; max-width: 500px">
+          본 메일은 발신전용으로 회신 되지 않습니다.
+        </div>
+        <div style="width: 90%; max-width: 500px">
+          모노펍 서비스 관련 궁금하신 사항은 고객센터 1644-5805, 1:1문의에서
+          확인해주세요.
+        </div>
+      </div>
+    </main>
+    <!-- main end -->
 
     <!-- footer start -->
-    <footer class="footer" style=" width: 100%; height: 200px; background-color:#F56250;  margin-top: 50px; display: flex; justify-content: center; align-items: center;">
-    <footer class="footer" style=" width: 100%; height: 200px; background-color:#F56250;  margin-top: 50px; display: flex; justify-content: center; align-items: center;">
-        <div class="footer_wrap_content" style="width: 545px; height: 151px; display: flex; justify-content: space-between;
-        align-items: center;">
-
-            <div style="    font-size: 26px; font-weight: 700; line-height: 31px; letter-spacing: 0.03em; text-align: left;  color: #FFFFFF;  display: flex; align-items: center;">
-                <div class="LOGO">LOGO</div>
-                <div class="LOGO">LOGO</div>
-            </div>
-            <div>
-                <div  class="footer_text" style="color: #FFFFFF;  font-size: 15px; font-weight: 400; line-height: 18px; letter-spacing: 0.03em;">
-                    <div>사업자등록번호 : 113-86-13483</div>
-                    <div>통신판매번호 : 구로 제 2008-00086호</div>
-                    <div>고객센터 : 1644-5805</div>
-                    <div>서울 금천구 가산디지털1로 5대륭테크노타운20차 402호</div>
-                    <div>대표 : 문양희 개인정보관리책임자 : 조원호</div>
-                    <div>대표 : 문양희 개인정보관리책임자 : 조원호</div>
-                </div>
-                
-                <div class="copyright" style="font-size: 15px; font-weight: 400; line-height: 18px; letter-spacing: 0.03em; text-align: left; margin-top: 15px;  color: #FFFFFF;">
-                    Copyright © 2023 MONOPUB, Inc. All rights reserved
-                </div>
-                <div class="copyright" style="font-size: 15px; font-weight: 400; line-height: 18px; letter-spacing: 0.03em; text-align: left; margin-top: 15px;  color: #FFFFFF;">
-                    Copyright © 2023 MONOPUB, Inc. All rights reserved
-                </div>
-            </div>
+    <footer
+      class="footer"
+      style="
+        width: 100%;
+        height: 200px;
+        background-color: #f56250;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <div
+        class="footer_wrap_content"
+        style="
+          width: 545px;
+          height: 151px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        "
+      >
+        <div
+          style="
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 31px;
+            letter-spacing: 0.03em;
+            text-align: left;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+          "
+        >
+          <div class="LOGO">LOGO</div>
         </div>
+        <div>
+          <div
+            class="footer_text"
+            style="
+              color: #ffffff;
+              font-size: 15px;
+              font-weight: 400;
+              line-height: 18px;
+              letter-spacing: 0.03em;
+            "
+          >
+            <div>사업자등록번호 : 113-86-13483</div>
+            <div>통신판매번호 : 구로 제 2008-00086호</div>
+            <div>고객센터 : 1644-5805</div>
+            <div>서울 금천구 가산디지털1로 5대륭테크노타운20차 402호</div>
+            <div>대표 : 문양희 개인정보관리책임자 : 조원호</div>
+          </div>
+
+          <div
+            class="copyright"
+            style="
+              font-size: 15px;
+              font-weight: 400;
+              line-height: 18px;
+              letter-spacing: 0.03em;
+              text-align: left;
+              margin-top: 15px;
+              color: #ffffff;
+            "
+          >
+            Copyright © 2023 MONOPUB, Inc. All rights reserved
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- footer end -->
-</body>
+  </body>
 </html>
