@@ -5,46 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mail template 3</title>
     <style>@media screen and (max-width:483px) {
-        *body{margin: 0; background-color: aqua;}
-        .wrap_head{font-size: 24px !important;}
-        .footer{margin: 0; height: 250px !important;}
-        .footer_wrap_content{display: flex; margin: 0; flex-direction: column; text-align: center;}
+        .footer_wrap_content{display: flex; flex-direction: column; text-align: center; height: 600px;}
         .footer_text{ display: flex; flex-direction: column; align-self: center; justify-content: center; }
         .LOGO{ margin: 0;margin-bottom: 10px;}
-        .copyright{text-align: center !important;}
           }</style>
-       <script>
-        (function (d) {
-          var config = {
-              kitId: "pkx5omj",
-              scriptTimeout: 3000,
-              async: true,
-            },
-            h = d.documentElement,
-            t = setTimeout(function () {
-              h.className =
-                h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
-            }, config.scriptTimeout),
-            tk = d.createElement("script"),
-            f = false,
-            s = d.getElementsByTagName("script")[0],
-            a;
-          h.className += " wf-loading";
-          tk.src = "https://use.typekit.net/" + config.kitId + ".js";
-          tk.async = true;
-          tk.onload = tk.onreadystatechange = function () {
-            a = this.readyState;
-            if (f || (a && a != "complete" && a != "loaded")) return;
-            f = true;
-            clearTimeout(t);
-            try {
-              Typekit.load(config);
-            } catch (e) {}
-          };
-          s.parentNode.insertBefore(tk, s);
-        })(document);
-      </script>
 </head>
+<body style="font-family: Pretendard; margin: 0;">
 <body style="font-family: Pretendard; margin: 0;">
     
     <header>
@@ -132,10 +98,12 @@
 
     <!-- footer start -->
     <footer class="footer" style=" width: 100%; height: 200px; background-color:#F56250;  margin-top: 50px; display: flex; justify-content: center; align-items: center;">
+    <footer class="footer" style=" width: 100%; height: 200px; background-color:#F56250;  margin-top: 50px; display: flex; justify-content: center; align-items: center;">
         <div class="footer_wrap_content" style="width: 545px; height: 151px; display: flex; justify-content: space-between;
         align-items: center;">
 
             <div style="    font-size: 26px; font-weight: 700; line-height: 31px; letter-spacing: 0.03em; text-align: left;  color: #FFFFFF;  display: flex; align-items: center;">
+                <div class="LOGO">LOGO</div>
                 <div class="LOGO">LOGO</div>
             </div>
             <div>
@@ -145,15 +113,13 @@
                     <div>고객센터 : 1644-5805</div>
                     <div>서울 금천구 가산디지털1로 5대륭테크노타운20차 402호</div>
                     <div>대표 : 문양희 개인정보관리책임자 : 조원호</div>
+                    <div>대표 : 문양희 개인정보관리책임자 : 조원호</div>
                 </div>
                 
-                <div class="copyright" style="font-size: 15px; font-weight: 400; line-height: 18px; letter-spacing: 0.03em; text-align: left; margin-top: 15px;  color: #FFFFFF;">
-                    Copyright © 2023 MONOPUB, Inc. All rights reserved
-                </div>
+                <div style="  font-size: 15px; font-weight: 400; line-height: 18px; letter-spacing: 0.03em; text-align: left; margin-top: 15px;  color: #FFFFFF;">Copyright © 2023 MONOPUB, Inc. All rights reserved</p>
             </div>
         </div>
     </footer>
     <!-- footer end -->
 </body>
 </html>
-<!-- git test -->
