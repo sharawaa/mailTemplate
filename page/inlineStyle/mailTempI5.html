@@ -4,19 +4,55 @@
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mail template 5</title>
-    <style>@media screen and (max-width:483px) {
+    <style>
+    @media screen and (max-width:483px) {
+        .wrap_head{font-size: 24px !important; }
         .footer_wrap_content{display: flex; flex-direction: column; text-align: center; height: 600px;}
         .footer_text{ display: flex; flex-direction: column; align-self: center; justify-content: center; }
         .LOGO{ margin: 0;margin-bottom: 10px;}
-          }</style>
+        .td_width{width: 110px !important;}
+        footer{height: 250px !important;}
+        .copyright{text-align: center !important;}
+          }
+          </style>
+             <script>
+                (function (d) {
+                  var config = {
+                      kitId: "pkx5omj",
+                      scriptTimeout: 3000,
+                      async: true,
+                    },
+                    h = d.documentElement,
+                    t = setTimeout(function () {
+                      h.className =
+                        h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                    }, config.scriptTimeout),
+                    tk = d.createElement("script"),
+                    f = false,
+                    s = d.getElementsByTagName("script")[0],
+                    a;
+                  h.className += " wf-loading";
+                  tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+                  tk.async = true;
+                  tk.onload = tk.onreadystatechange = function () {
+                    a = this.readyState;
+                    if (f || (a && a != "complete" && a != "loaded")) return;
+                    f = true;
+                    clearTimeout(t);
+                    try {
+                      Typekit.load(config);
+                    } catch (e) {}
+                  };
+                  s.parentNode.insertBefore(tk, s);
+                })(document);
+              </script>
 </head>
-<body style="font-family: 'Pretendard';">
+<body style="font-family: 'Pretendard'; margin: 0;"> 
     <header>
         <div  style="width: 100%; display: flex; flex-direction: column;align-items: center; justify-content: space-around; height: 200px; ">
             <a href="./mailTempI9.html" style="width: 90%; max-width: 500px; height: 50px; display: flex; justify-content: center; align-items: center; margin-top: 62px; font-size: 26px;font-weight: 700; line-height: 31.03px; color: black; text-decoration: none;">LOGO</a>
-            <div class="wrap_head" style="width: 90%; max-width: 1129px; height: 69px; background-color: #E8ECEF; display: flex; justify-content: center; align-items: center; margin-top: 19px; font-size: 32px; font-weight: 600; text-align: center;">휴면회원 전환 안내 메일</div>
+            <div class="wrap_head" style="width: 90%; max-width: 1129px; height: 69px; background-color: #E8ECEF; display: flex; justify-content: center; align-items: center; margin-top: 19px; font-size: 32px; font-weight: 600; text-align: center; ">휴면회원 전환 안내 메일</div>
         </div>
-        
     </header>
 <!-- header end -->
 
@@ -49,25 +85,18 @@
         <table style=" border-collapse: collapse; width: 100%; border: 1px solid #eff1f0;">
 
             <tr>
-              <td style="border: 1px solid #eff1f0; padding: 8px; text-align: left; background-color: #eff1f0; border-bottom: 1px solid #ffffff; font-family: Pretendard; font-size: 14px; font-weight: 500; line-height: 17px; letter-spacing: 0.03em; text-align: left; width: 178px;">계정정보</td>
+              <td class="td_width" style="border: 1px solid #eff1f0; padding: 8px; text-align: left; background-color: #eff1f0; border-bottom: 1px solid #ffffff; font-family: Pretendard; font-size: 14px; font-weight: 500; line-height: 17px; letter-spacing: 0.03em; text-align: left; width: 148px;" >계정정보</td>
 
               <td style="border: 1px solid #eff1f0; padding: 8px; text-align: left; font-family: Pretendard; font-size: 14px; font-weight: 300; line-height: 17px; letter-spacing: 0.03em; text-align: left; ">honggildong</td>
             </tr>
             <tr>
-              <td style="border: 1px solid #eff1f0; padding: 8px; text-align: left; background-color: #eff1f0; border-bottom: 1px solid #ffffff; font-family: Pretendard; font-size: 14px; font-weight: 500; line-height: 17px; letter-spacing: 0.03em; text-align: left;  ">휴면계정 전환 일자</td>
+              <td class="td_width" style="border: 1px solid #eff1f0; padding: 8px; text-align: left; background-color: #eff1f0; border-bottom: 1px solid #ffffff; font-family: Pretendard; font-size: 14px; font-weight: 500; line-height: 17px; letter-spacing: 0.03em; text-align: left; width: 148px; ">휴면계정 전환 일자</td>
               <td style="border: 1px solid #eff1f0; padding: 8px; text-align: left; font-family: Pretendard; font-size: 14px; font-weight: 300; line-height: 17px; letter-spacing: 0.03em; ">2023-09-16</td>
             </tr>
         </table> 
     </div>
     <div style="width: 90%; max-width: 500px; margin-top: 30px; text-align: left;">
-        <div style="font-family: Pretendard;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 19px;
-        letter-spacing: 0.03em;
-        text-align: left;
-        
-        ">
+        <div style="font-family: Pretendard; font-size: 16px; font-weight: 500; line-height: 19px; letter-spacing: 0.03em; text-align: left;">
             휴면 계정 전환 시 변경 사항
         </div>
         <ul style="font-family: Pretendard;
@@ -138,7 +167,7 @@ text-align: center;
                 <p class="LOGO">LOGO</p>
             </div>
             <div>
-                <div  class="footer_text" style="color: #FFFFFF;  font-size: 15px; font-weight: 400; line-height: 18px; letter-spacing: 0.03em;">
+                <div  class="footer_text" style="color: #FFFFFF;  font-size: 15px; font-weight: 400; line-height: 18px; letter-spacing: 0.03em; flex-wrap: nowrap;">
                     <div>사업자등록번호 : 113-86-13483</div>
                     <div>통신판매번호 : 구로 제 2008-00086호</div>
                     <div>고객센터 : 1644-5805</div>
@@ -146,7 +175,7 @@ text-align: center;
                     <div>대표 : 문양희     개인정보관리책임자 : 조원호</div>
                 </div>
                 
-                <div style="  font-size: 15px; font-weight: 400; line-height: 18px; letter-spacing: 0.03em; text-align: left; margin-top: 15px;  color: #FFFFFF;">Copyright © 2023 MONOPUB, Inc. All rights reserved</p>
+                <div class="copyright" style="  font-size: 15px; font-weight: 400; line-height: 18px; letter-spacing: 0.03em; text-align: left; margin-top: 15px;  color: #FFFFFF;">Copyright © 2023 MONOPUB, Inc. All rights reserved</p>
             </div>
         </div>
     </footer>

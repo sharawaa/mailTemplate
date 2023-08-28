@@ -5,12 +5,46 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mail template 9</title>
     <style>@media screen and (max-width:483px) {
-        .footer_wrap_content{display: flex; flex-direction: column; text-align: center; height: 600px;}
-        .footer_text{ display: flex; flex-direction: column; align-self: center; justify-content: center; }
-        .LOGO{ margin: 0;margin-bottom: 10px;}
+      .wrap_head{font-size: 24px !important;}
+    .table_td{width: 110px !important;}
+    .footer_wrap{height: 250px !important;}
+    .footer_wrap_content{ flex-direction: column; text-align: center;}
+    .LOGO{margin-bottom: 10px;}
+    .copyright{text-align: center !important;}
           }</style>
+             <script>
+                (function (d) {
+                  var config = {
+                      kitId: "pkx5omj",
+                      scriptTimeout: 3000,
+                      async: true,
+                    },
+                    h = d.documentElement,
+                    t = setTimeout(function () {
+                      h.className =
+                        h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                    }, config.scriptTimeout),
+                    tk = d.createElement("script"),
+                    f = false,
+                    s = d.getElementsByTagName("script")[0],
+                    a;
+                  h.className += " wf-loading";
+                  tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+                  tk.async = true;
+                  tk.onload = tk.onreadystatechange = function () {
+                    a = this.readyState;
+                    if (f || (a && a != "complete" && a != "loaded")) return;
+                    f = true;
+                    clearTimeout(t);
+                    try {
+                      Typekit.load(config);
+                    } catch (e) {}
+                  };
+                  s.parentNode.insertBefore(tk, s);
+                })(document);
+              </script>
 </head>
-<body style="font-family: 'Pretendard';">
+<body style="font-family: 'Pretendard'; margin: 0;">
 
     <header>
         <div  style="width: 100%; display: flex; flex-direction: column;align-items: center; justify-content: space-around; height: 200px; ">
@@ -38,7 +72,7 @@
                 </div>
                 <table style=" border-collapse: collapse; width: 100%; border: 1px solid #eff1f0;">
                     <tr>
-                      <td style="border: 1px solid #eff1f0; padding: 8px; text-align: left; background-color: #eff1f0; border-bottom: 1px solid #ffffff; font-weight: 500; font-size: 14px; line-height: 16.71px; letter-spacing: 3%; width: 178px;">프로젝트 명</td>
+                      <td class="table_td" style="border: 1px solid #eff1f0; padding: 8px; text-align: left; background-color: #eff1f0; border-bottom: 1px solid #ffffff; font-weight: 500; font-size: 14px; line-height: 16.71px; letter-spacing: 3%; width: 178px;">프로젝트 명</td>
                       <td style="border: 1px solid #eff1f0; padding: 8px; text-align: left;font-family: Pretendard;
                       font-size: 14px;
                       font-weight: 300;
@@ -48,7 +82,7 @@
                       ">#ProjectName</td>
                     </tr>
                     <tr>
-                      <td style="border: 1px solid #eff1f0; padding: 8px; text-align: left; background-color: #eff1f0; border-bottom: 1px solid #ffffff; font-weight: 500; font-size: 14px; line-height: 16.71px; letter-spacing: 3%; width: 178px;">예상완료 일자</td>
+                      <td class="table_td" style="border: 1px solid #eff1f0; padding: 8px; text-align: left; background-color: #eff1f0; border-bottom: 1px solid #ffffff; font-weight: 500; font-size: 14px; line-height: 16.71px; letter-spacing: 3%; width: 178px;">예상완료 일자</td>
                       <td style="border: 1px solid #eff1f0; padding: 8px; text-align: left; font-family: Pretendard;
                       font-size: 14px;
                       font-weight: 300;
@@ -58,7 +92,7 @@
                       ">#EstimatedEndDate</td>
                     </tr>
                     <tr>
-                        <td style="border: 1px solid #eff1f0; padding: 8px; text-align: left; background-color: #eff1f0; border-bottom: 1px solid #ffffff; font-weight: 500; font-size: 14px; line-height: 16.71px; letter-spacing: 3%; width: 178px;">실완료 일자</td>
+                        <td class="table_td" style="border: 1px solid #eff1f0; padding: 8px; text-align: left; background-color: #eff1f0; border-bottom: 1px solid #ffffff; font-weight: 500; font-size: 14px; line-height: 16.71px; letter-spacing: 3%; width: 178px;">실완료 일자</td>
                         <td style="border: 1px solid #eff1f0; padding: 8px; text-align: left; font-family: Pretendard;
                         font-size: 14px;
                         font-weight: 300;
@@ -68,7 +102,7 @@
                         ">#ActualEndDate</td>
                       </tr>
                       <tr>
-                        <td style="border: 1px solid #eff1f0; padding: 8px; text-align: left; background-color: #eff1f0; border-bottom: 1px solid #ffffff; font-weight: 500; font-size: 14px; line-height: 16.71px; letter-spacing: 3%; width: 178px;">담당 개발자</td>
+                        <td class="table_td" style="border: 1px solid #eff1f0; padding: 8px; text-align: left; background-color: #eff1f0; border-bottom: 1px solid #ffffff; font-weight: 500; font-size: 14px; line-height: 16.71px; letter-spacing: 3%; width: 178px;">담당 개발자</td>
                         <td style="border: 1px solid #eff1f0; padding: 8px; text-align: left; font-family: Pretendard;
                         font-size: 14px;
                         font-weight: 300;
@@ -176,23 +210,23 @@
     <!-- main end -->
 
     <!-- footer start -->
-    <footer style=" width: 100%; height: 200px; background-color:#F56250;  margin-top: 50px; display: flex; justify-content: center; align-items: center;">
+    <foote class="footer_wrap" style=" width: 100%; height: 200px; background-color:#F56250;  margin-top: 50px; display: flex; justify-content: center; align-items: center;">
         <div class="footer_wrap_content" style="width: 545px; height: 151px; display: flex; justify-content: space-between;
         align-items: center;">
 
             <div style="    font-size: 26px; font-weight: 700; line-height: 31px; letter-spacing: 0.03em; text-align: left;  color: #FFFFFF;  display: flex; align-items: center;">
-                <p class="LOGO">LOGO</p>
+                <div class="LOGO">LOGO</div>
             </div>
             <div>
                 <div  class="footer_text" style="color: #FFFFFF;  font-size: 15px; font-weight: 400; line-height: 18px; letter-spacing: 0.03em;">
                     <div>사업자등록번호 : 113-86-13483</div>
-                    <div>통신판매번호 : 구로 제 2008-00086호</div>
+                    <div>통신판매번호 : 구로 제 2008-00086</div>
                     <div>고객센터 : 1644-5805</div>
                     <div>서울 금천구 가산디지털1로 5대륭테크노타운20차 402호</div>
                     <div>대표 : 문양희     개인정보관리책임자 : 조원호</div>
                 </div>
                 
-                <div style="  font-size: 15px; font-weight: 400; line-height: 18px; letter-spacing: 0.03em; text-align: left; margin-top: 15px;  color: #FFFFFF;">Copyright © 2023 MONOPUB, Inc. All rights reserved</p>
+                <div class="copyright" style="font-size: 15px; font-weight: 400; line-height: 18px; letter-spacing: 0.03em; text-align: left; margin-top: 15px;  color: #FFFFFF;">Copyright © 2023 MONOPUB, Inc. All rights reserved</div>
             </div>
         </div>
     </footer>
